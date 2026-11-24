@@ -9,6 +9,7 @@ spec:
   # git branch -> Voiceflow environment alias
   branches:
     main: main
+    voiceflow/hello-world: hello-world
 
   apply:
     deletes: confirm # confirm | allow | never
