@@ -1,0 +1,18 @@
+version: vfa/v1
+kind: Project
+metadata:
+  key: m_kkmmk
+spec:
+  workspaceID: 3VzElbjL6X
+  projectID: 6b061ac64792d5065732a0bb
+
+  # git branch -> Voiceflow environment alias
+  branches:
+    main: main
+
+  apply:
+    deletes: confirm # confirm | allow | never
+    publishOnTag: true # tag release/<alias>/<name> runs apply then environment.publish
+
+  api:
+    url: "https://realtime-http-api-dev-mike.us.development.voiceflow.com"
